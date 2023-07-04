@@ -1,0 +1,15 @@
+#Creating class, attributes of the class and instance of class
+
+class Product:
+    name = "TV"
+    price  = 25000
+    deal_price = 22000
+    rating = 4.1 
+    you_save = price-deal_price
+    
+tv = Product()
+print(tv.name)
+print(tv.price)
+print(tv.deal_price)
+print(tv.rating)
+print(tv.you_save)
